@@ -1,3 +1,9 @@
+/*
+Following the introduction of proper semantic elements into the HTML nearly all of the rules
+that were written using classes were able to be rewritten as descendent selectors tied to the
+updated semantic elements.
+*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -50,7 +56,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -58,6 +64,7 @@ p {
     background-size: cover;
     background-position: center;
 }
+
 
 .float-left {
     float: left;
@@ -69,13 +76,13 @@ p {
     margin-left: 25px;
 }
 
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,55 +93,23 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h2 {
+aside section h2 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h2 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h2 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,47 +118,11 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+main section img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }

@@ -8,4 +8,3 @@ The homepage can be viewed [here](https://chocochip287.github.io/horiseon-code-r
 
 ## Screenshot
 ![Homepage screenshot](./screenshot.png)
-
